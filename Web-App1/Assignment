@@ -1,0 +1,35 @@
+
+1) Create Login form 
+     Username
+     Password
+     
+2) Create a new Servlet -> LoginServlet
+
+3) Implement doPost() for user validation 
+
+4) Register User 
+      Username 
+      Password 
+      Confirm Password 
+                        
+      Submit
+      ---->> through Servlet --->> DAO -> doInsertUser(.......);
+      
+      
+      
+Approach 1 : Without database
+  check through conditional statement
+  
+Approach 2 :  Using Database
+  Using DAO class
+  
+  1) Create Table User
+  2) Create DAO Method Validate User
+    public boolean validateUser(String username,String password)throws SQLException
+    
+  
+  
+4) Display as HTML-Output 
+     Welcome <<Username>>
+     or
+     Invalid Username or Password    
